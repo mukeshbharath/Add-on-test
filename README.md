@@ -24,27 +24,42 @@ Manage Connections menu helps the user to login to the server to communicate and
 
 6. This menu helps to fetch the data from the server for a desired date range with various aggregations in user convenient templates.
 7. `Get-Data` window provides various drop down fields for `Client`, `From Date`, `To Date`, `Selet Aggregator`, `Select Template`, `Ref.Line Value` that user has to fill with options/values.
-(i) Date pickers are provided for selecting `From Date` & `To Date`
-<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/get-data-date.png" width=50% height=40%>
+  * Date pickers are provided for selecting `From Date` & `To Date`
 
-(ii) The Aggreagation for the data per day has to be choosed from `Select Aggregate` dropdown (`Max`/`Min`/`Mean`/`Median`).
-<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/get-data-aggr.png" width=50% height=40%>
+<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/get-data-date.png" width=40% height=25%>
 
-(iii) The Template with which the user likes to view the Data has to be selected from the Select Template dropdow (from `DEC Report`/`Model1`/`Model2`/`Model3`)
-<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/get-data-template.png" width=50% height=40%>
+  * The Aggreagation for the data per day has to be choosed from `Select Aggregate` dropdown (`Max`/`Min`/`Mean`/`Median`).
 
-(iv) The `Get Data` also offers user to select the `Ref. Line (Temp)` to provide Reference Line for Temperature which will be added as threshold in Charts for reference.
-<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/get-data-refLine.png" width=50% height=40%>
+<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/get-data-aggr.png" width=75% height=75%>
 
-(v) Once all the fields are provided, press `Submit`.
-8. You'll see the appropriate Data populating under the selected template.
+  * The Template with which the user likes to view the Data has to be selected from the Select Template dropdow (from `DEC Report`/`Model1`/`Model2`/`Model3`)
 
-<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/get-data-loading.png" width=50% height=40%>
+<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/get-data-template.png" width=40% height=25%>
+
+  * The `Get Data` also offers user to select the `Ref. Line (Temp)` to provide Reference Line for Temperature which will be added as threshold in Charts for reference.
+
+<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/get-data-refLine.png" width=40% height=25%>
+
+  * Once all the fields are provided, press `Submit`.
+8. You'll see the Add-on Loads the Seleceted template with Data populating under it.
+
+<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/get-data-loading.png" width=40% height=25%>
 
 9. The template model details are as follows:
-	(i) DEC report - Displays all location (sensor) data in a Sheet and Plots a cumulative representation in another Sheet
-	(ii) Model1 - Each Sheet has location (sensors) data and resp. charts plotted, and N sheets for N number of locations available in the client.
-	(iii) Model2 - First Sheet displays all the location (sensor) data and chart representation for each sensor (Site specific) provided in separate sheets and cumulative representation of all sensors in a sheet.
-	(iv) Model3 - Displays sensor data and it chart representation in a sheet (Piles specific), N sheets for N Piles available in the Site
+  * DEC report - Displays all location (sensor) data in a Sheet and Plots a cumulative representation in another Sheet
+  * Model1 - Each Sheet has location (sensors) data and resp. charts plotted, and N sheets for N number of locations available in the client.
+  * Model2 - First Sheet displays all the location (sensor) data and chart representation for each sensor (Site specific) provided in separate sheets and cumulative representation of all sensors in a sheet.
+  * Model3 - Displays sensor data and it chart representation in a sheet (Piles specific), N sheets for N Piles available in the Site
+  
 10. On clicking "Refresh" menu, all the sheets in current workbook will be deleted and inserts a new active worksheet.
-11. It is designed to pop up an alert message to save the Workbook before attempting to delete the sheets.
+
+<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/menu-refresh.png" width=40% height=25%>
+
+11. It is designed to pop up an alert message to save the Workbook before attempting to refresh the sheets.
+
+<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/refresh-alert.png" width=40% height=25%>
+
+12. About menu displays the Product Name, version and website information.
+
+<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/about.png" width=40% height=25%>
+
