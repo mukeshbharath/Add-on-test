@@ -20,7 +20,7 @@ Manage Connections menu helps the user to login to the server to communicate and
 ## GET DATA
 1. Once you see the `Connection Established` pop-up, move on to the next menu option `Get-Data` in the WeRadiate Add-on.
 
-<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/menu-get-data.png" width=40% height=25%>
+<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/menu-get-data.png" width=75% height=75%>
 
 2. This menu helps to fetch the data from the server for a desired date range with various aggregations in user convenient templates.
 3. `Get-Data` window provides various drop down fields for `Client`, `From Date`, `To Date`, `Selet Aggregator`, `Select Template`, `Ref.Line Value` that user has to fill with options/values.
@@ -41,16 +41,31 @@ Manage Connections menu helps the user to login to the server to communicate and
 <img src="https://github.com/mukeshbharath/Add-on-test/blob/master/get-data-refLine.png" width=40% height=25%>
 
   * Once all the fields are provided, press `Submit`.
-4. You'll see the Add-on Loads the Seleceted template with Data populating under it.
+4. You'll see the Add-on Loads the Selected template with Data populating under it.
 
 <img src="https://github.com/mukeshbharath/Add-on-test/blob/master/get-data-loading.png" width=40% height=25%>
 
 ## TEMPLATES
 The template model details used in this Add-on are as follows:
-  * DEC report - Displays all location (sensor) data in a Sheet and Plots a cumulative representation in another Sheet
+### DEC Report Template
+  * DEC Report - Displays all location (sensor) data in a Sheet.
+
+<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/DEC-Report.png" width=75% height=75%>
+
+  * DEC Chart - Plots a cumulative representation and Displays in another Sheet.
+
+<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/DEC-Report-chart.png" width=75% height=75%>
+
+### Model1 Template
   * Model1 - Each Sheet has location (sensors) data and resp. charts plotted, and N sheets for N number of locations available in the client.
+
+### Model 2 Template
   * Model2 - First Sheet displays all the location (sensor) data and chart representation for each sensor (Site specific) provided in separate sheets and cumulative representation of all sensors in a sheet.
-  * Model3 - Displays sensor data and it chart representation in a sheet (Piles specific), N sheets for N Piles available in the Site
+
+### Model 3 Template
+  * Model3 - Displays sensor data and it chart representation in a sheet (Piles specific), N sheets for N Piles available in the Site.
+  
+<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/model3-template.png" width=75% height=75%>
   
 ## REFRESH
 On clicking "Refresh" menu, all the sheets in current workbook will be deleted and inserts a new active worksheet.
