@@ -10,21 +10,37 @@ Manage Connections menu helps the user to login to the server to communicate and
 1. Now click on the first option `Manage Connections`, this will pop-up a `Login` window.
 2. In `Login` window, the user needs to provide the credentials for accessing the server (`Server URL`, `Username` & `Password`) from which the data has to be fetched.
 
-<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/mang-conn-login.png" width=50% height=40%>
+<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/mang-conn-login.png" width=40% height=25%>
 
 3. For easy access the credentials have been pre-filled and just need to press `Submit` to establish the connection.
 4. This will establish a connection to the server to which we need to communicate.
 
-<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/mang-conn-established.png" width=50% height=40%>
+<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/mang-conn-established.png" width=40% height=25%>
 
 ## Get Data
 5. Once you see the `Connection Established` pop-up, move on to the next menu option `Get-Data` in the WeRadiate Add-on.
 
-<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/mang-conn-established.png" width=75% height=75%>
+<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/menu-get-data.png" width=75% height=75%>
 
 6. This menu helps to fetch the data from the server for a desired date range with various aggregations in user convenient templates.
-7. Select the drop down fields of "Get-Data" window with the option/values of your choice, and press "Submit"
+7. `Get-Data` window provides various drop down fields for `Client`, `From Date`, `To Date`, `Selet Aggregator`, `Select Template`, `Ref.Line Value` that user has to fill with options/values.
+(i) Date pickers are provided for selecting `From Date` & `To Date`
+<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/get-data-date.png" width=50% height=40%>
+
+(ii) The Aggreagation for the data per day has to be choosed from `Select Aggregate` dropdown (`Max`/`Min`/`Mean`/`Median`).
+<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/get-data-aggr.png" width=50% height=40%>
+
+(iii) The Template with which the user likes to view the Data has to be selected from the Select Template dropdow (from `DEC Report`/`Model1`/`Model2`/`Model3`)
+<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/get-data-template.png" width=50% height=40%>
+
+(iv) The `Get Data` also offers user to select the `Ref. Line (Temp)` to provide Reference Line for Temperature which will be added as threshold in Charts for reference.
+<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/get-data-refLine.png" width=50% height=40%>
+
+(v) Once all the fields are provided, press `Submit`.
 8. You'll see the appropriate Data populating under the selected template.
+
+<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/get-data-loading.png" width=50% height=40%>
+
 9. The template model details are as follows:
 	(i) DEC report - Displays all location (sensor) data in a Sheet and Plots a cumulative representation in another Sheet
 	(ii) Model1 - Each Sheet has location (sensors) data and resp. charts plotted, and N sheets for N number of locations available in the client.
