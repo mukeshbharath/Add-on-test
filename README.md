@@ -1,14 +1,27 @@
-# WERADIATE DATA TEMPLATE USAGE:
+# WERADIATE DATA TEMPLATE Add-on Usage:
+This page helps you to get understand how to work with the WeRadiate Google Sheet Add-on.
+`Add-ons -> WERADIATE DATA TEMPLATE -> Menus...`
+
 ## MANAGE CONNECTIONS
 Manage Connections menu helps the user to login to the server to communicate and fetch login.
+
 <img src="https://github.com/mukeshbharath/Add-on-test/blob/master/menu-mang-conn.png" width=75% height=75%>
-1. Now click on the first option "Manage Connections", this will pop-up a "Login" window.
-2. In "Login" window, the user needs to provide the credentials for accessing the server from which the data has to be fetched.
-<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/mang-conn-login.png" width=75% height=75%>
-3. For easy access the credentials have been pre-filled and just need to press "Submit" to establish the connection.
+
+1. Now click on the first option `Manage Connections`, this will pop-up a `Login` window.
+2. In `Login` window, the user needs to provide the credentials for accessing the server (`Server URL`, `Username` & `Password`) from which the data has to be fetched.
+
+<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/mang-conn-login.png" width=50% height=40%>
+
+3. For easy access the credentials have been pre-filled and just need to press `Submit` to establish the connection.
 4. This will establish a connection to the server to which we need to communicate.
+
+<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/mang-conn-established.png" width=50% height=40%>
+
+## Get Data
+5. Once you see the `Connection Established` pop-up, move on to the next menu option `Get-Data` in the WeRadiate Add-on.
+
 <img src="https://github.com/mukeshbharath/Add-on-test/blob/master/mang-conn-established.png" width=75% height=75%>
-5. Once you see the "Connection Established" pop-up, move on to the next menu option "Get-Data" in the WeRadiate Add-on.
+
 6. This menu helps to fetch the data from the server for a desired date range with various aggregations in user convenient templates.
 7. Select the drop down fields of "Get-Data" window with the option/values of your choice, and press "Submit"
 8. You'll see the appropriate Data populating under the selected template.
