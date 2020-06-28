@@ -1,5 +1,5 @@
 # WERADIATE DATA TEMPLATE USAGE:
-1. Now click on the first option "Manage Connections", this will pop-up a "Login" window.
+1. Now click on the first option "Manage Connections", this will pop-up a "Login" window.(https://github.com/mukeshbharath/Add-on-test/blob/master/menu-mang-conn.png)
 2. In "Login" window, the user needs to provide the credentials for accessing the server from which the data has to be fetched.
 3. This will establish a connection to the server to which we need to communicate.
 4. For easy access the credentials have been pre-filled and just need to press "Submit" to establish the connection.
