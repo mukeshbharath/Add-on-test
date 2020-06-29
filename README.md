@@ -68,7 +68,7 @@ The template model details used in this Add-on are as follows:
 <img src="https://github.com/mukeshbharath/Add-on-test/blob/master/model3-template.png" width=75% height=75%>
   
 ## REFRESH
-On clicking "Refresh" menu, all the sheets in current workbook will be deleted and inserts a new active worksheet.
+On clicking `Refresh` menu, all the sheets in current workbook will be deleted and inserts a new active worksheet.
 
 <img src="https://github.com/mukeshbharath/Add-on-test/blob/master/menu-refresh.png" width=75% height=75%>
 
@@ -77,7 +77,7 @@ It is designed to pop up an alert message to save the Workbook before attempting
 <img src="https://github.com/mukeshbharath/Add-on-test/blob/master/refresh-alert.png" width=40% height=25%>
 
 ## ABOUT
-12. About menu displays the Product Name, version and website information.
+`About` menu displays the Product Name, its Version and Website Information.
 
 <img src="https://github.com/mukeshbharath/Add-on-test/blob/master/about.png" width=40% height=25%>
 
