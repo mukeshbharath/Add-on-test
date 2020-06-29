@@ -43,7 +43,7 @@ Manage Connections menu helps the user to login to the server to communicate and
   * Once all the fields are provided, press `Submit`.
 4. You'll see the Add-on Loads the Selected template with Data populating under it.
 
-<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/get-data-loading.png" width=40% height=25%>
+<img src="https://github.com/mukeshbharath/Add-on-test/blob/master/get-data-loading.png" width=25% height=25%>
 
 ## TEMPLATES
 The template model details used in this Add-on are as follows:
